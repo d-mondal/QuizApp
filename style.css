@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+body {
+    background-image: url("bg1.jpeg");
+}
+
+.modal {
+    display: block;
+    --bs-modal-header-border-color: none;
+    --bs-modal-footer-border-width: none;
+    font-family: "Teko", sans-serif;
+}
+
+.modal-content {
+    background-color:rgb(19, 19, 82);
+    color: rgb(216, 214, 214);
+}
+
+.modal p{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.mbtn {
+    margin: 1vh auto;
+    width: 60%;
+    height: 6vh;
+    color: rgb(19, 19, 82);
+    font-weight: bold;
+    background-color: white;
+    font-size: 4vh;
+    border: none;
+}
+
+#endModal {
+    display: none;
+}
+
+.title {
+    text-align: center;
+    margin-top: 3vh;
+    padding: 2vh;
+    font-size: 8vh;
+    font-family: "Teko", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.quizarea {
+    background-color: rgba(255, 255, 255, 0.4);
+    /* padding-bottom: 5vh; */
+}
+
+#allQuestions {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.questions {
+    /* border: 2px solid black; */
+    /* margin-top: 5vh; */
+    text-align: center;
+    padding: 5vh 8vw;
+    font-size: 4vh;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 8vh;
+    font-size: 4vh;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    margin-top: 1vw;
+    text-align: center;
+    padding: 1vw;
+    font-size: 4.5vh;
+}
+
+.timer span{
+    background-color:  rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0.25% 30px;
+    font-weight: 600;
+}
+
+.correct, .correct:hover {
+    background-color: rgba(0, 100, 0, 0.411);
+}
+
+.incorrect, .incorrect:hover {
+    background-color: rgba(139, 0, 0, 0.394);
+}
